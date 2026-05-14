@@ -1,0 +1,85 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  animation: topToBottom 1s ease-out;
+  position: relative;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.Left {
+  background-color: #8d536a;
+  padding: 10px;
+  float: left;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+main {
+  background-color: #305c71;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: 50%;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circleAnimation 1s infinite linear;
+
+}
+
+.Right {
+  background-color: #8d536a;
+  padding: 10px;
+  height: 70vh;
+  width: 20%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+    animation: bottomToTop 1s ease-out;
+    position: relative;
+}
+@keyframes topToBottom {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes bottomToTop {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes circleAnimation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
