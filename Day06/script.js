@@ -25,3 +25,55 @@ person.sayHello = function() {
     alert(`Hello ${this.firstname} ${this.lastname}`);
 }
 person.sayHello();
+
+var person={firstname:"Yash",lastname:"Makwana",
+    sayHello:function() {
+        alert(`Hello ${this.firstname} ${this.lastname}`)
+    }
+};
+person.sayHello();
+
+  let obj = new Object()
+        obj.name = "Hello"
+        obj.age=" 20"
+        obj.fun = ()=>{
+            alert(obj.name+obj.age)
+        }
+
+        obj.fun()
+
+
+        let text2 = document.querySelector("#myText");
+
+console.log(text2.value);
+
+
+function handle(){
+    const f = document.querySelector("#myform")
+    const name = f.username.value
+    const password = f.password.value
+
+
+    if(name === "admin" || password === "123"){
+       return alert("valid")
+    }
+    alert("Invalid")
+}
+
+
+
+const mail = document.querySelector("#email").value
+
+
+function checkEmail(email) {
+    let pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (pattern.test(email)) {
+        console.log("Valid Email");
+    } else {
+        console.log("Invalid Email");
+    }
+}
+
+
+checkEmail(mail );

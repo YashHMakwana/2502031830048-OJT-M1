@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day7</title>
+  </head>
+
+  <body>
+    <h1 id="Regform">Form Validation</h1>
+
+    <form
+      name="RegForm"
+      method="post"
+      id="RegForm"
+      onsubmit="return validate();"
+    >
+      <table border="5">
+        <tr>
+          <td colspan="2">
+            <h1 style="text-align: center">REGISTRATION FORM</h1>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Name :</td>
+          <td>
+            <input type="text" size="40" name="Name" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>E-mail Address:</td>
+          <td>
+            <input type="text" size="40" name="Email" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Password:</td>
+          <td>
+            <input type="password" size="40" name="Password" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Mobile:</td>
+          <td>
+            <input type="text" size="40" name="Telephone" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Select Your Course :</td>
+          <td>
+            <select name="Subject">
+              <option value="">Select Course</option>
+              <option>B.Tech</option>
+              <option>M.Tech</option>
+              <option>BCA</option>
+              <option>MCA</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Comments:</td>
+
+          <td>
+            <textarea cols="40" name="Comment"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td>
+            <input type="submit" value="Submit" name="Submit" />
+
+            &nbsp;
+
+            <input type="reset" value="Reset" name="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <h1>Focus and Change Events</h1>
+
+    Select Product :
+    <select name="" id="product">
+      <option value="250000">AC</option>
+      <option value="540000">TV</option>
+      <option value="880000">Refrigerator</option>
+      <option value="940000">Laptop</option>
+    </select>
+    <br /><br />
+    Net Prize : <input type="text" id="prize" /> <br /><br />
+    Quantity : <input type="text" id="quantity" /> <br /><br />
+    Total Amount :<input type="text" id="amount" />
+
+    <h1>Mouseover and Events</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Gluehlampe_01_KMJ.png" id="Bulb" alt="">
+    <script src="./script.js"></script>
+  </body>
+</html>
