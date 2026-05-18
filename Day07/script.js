@@ -48,8 +48,40 @@ amount.addEventListener("focus", () => {
 
 var a = document.getElementById("Bulb");
 a.addEventListener("mouseover", () => {
-a.src="https://images.twinkl.co.uk/tr/raw/upload/u/ux/lightbulb-1875247-1920_ver_1.jpg"
+  a.src =
+    "https://images.twinkl.co.uk/tr/raw/upload/u/ux/lightbulb-1875247-1920_ver_1.jpg";
 });
 a.addEventListener("mouseout", () => {
-a.src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Gluehlampe_01_KMJ.png"
+  a.src =
+    "https://upload.wikimedia.org/wikipedia/commons/b/b4/Gluehlampe_01_KMJ.png";
 });
+
+var rows = document.getElementById("rows");
+var cols = document.getElementById("cols");
+var btn1 = document.getElementById("btn1");
+btn1.addEventListener("click", () => {
+  document.write("<table border='2' width='50%'>");
+  for (let i = 0; i < rows.value; i++) {
+    document.write("<tr>");
+    for (j = 0; j < cols.value; j++) {
+      document.write("<td>" + "[" + i + "]" + "[" + j + "]" + "</td>");
+    }
+    document.write("</tr>");
+  }
+  document.write("</table>");
+});
+
+var colors = ["red", "green", "blue", "pink", "black", "orange"];
+var mybody = document.getElementById("mybody");
+var i = 0;
+setInterval(() => {
+  mybody.style.backgroundColor = colors[i];
+  ++i;
+  if (i == colors.length) {
+    i = 0;
+  }
+}, 1000);
+
+var myJSON = '{"name":"John","age":30,"cars":["Ford","BMW","Fiat"]}';
+var myObj = JSON.parse(myJSON);
+document.getElementById("demo").innerHTML = myObj.cars[0];
