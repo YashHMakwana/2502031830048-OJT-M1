@@ -189,6 +189,26 @@ const MENU_ITEMS = [
     },
     {
         id: "shk-7",
+        name: "Aakha Lasan Nu Shaak",
+        category: "shaak",
+        price: 120,
+        rating: 4.7,
+        reviews: 219,
+        image: "https://i.pinimg.com/736x/ad/82/f3/ad82f3ca4e08bd8a98da0ab4bf93f71a.jpg",
+        description: "A Rustic, aromatic Kathiyawadi delicacy featuring whole, unpeeled bulbs of garlic simmered in a rich, spicy, and tangy gravy"
+    },
+    {
+        id: "shk-8",
+        name: "Aakha Dungri Nu Shaak",
+        category: "shaak",
+        price: 120,
+        rating: 4.7,
+        reviews: 219,
+        image: "https://i.ytimg.com/vi/nuwKrbh1bI0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDhcFBwDAEEnnlGFtO7sWrJ2VoCGQ",
+        description: "authentic Kathiyawadi delicacy featuring tender, whole baby onions simmered in a rich, spiced gravy. "
+    },
+    {
+        id: "shk-9",
         name: "Guvar Nu Shaak",
         category: "shaak",
         price: 130,
@@ -198,7 +218,7 @@ const MENU_ITEMS = [
         description: "Fresh cluster beans dry-cooked with carom seeds (ajwain), grated coconut, and a heavy garlic paste."
     },
     {
-        id: "shk-8",
+        id: "shk-10",
         name: "Vagharela Chana",
         category: "shaak",
         price: 110,
@@ -208,7 +228,7 @@ const MENU_ITEMS = [
         description: "High-protein black chickpeas boiled and dry-tempered in mustard oil, green chilies, and fiery garlic paste."
     },
     {
-        id: "shk-9",
+        id: "shk-11",
         name: "Mag Nu Shaak",
         category: "shaak",
         price: 120,
@@ -218,7 +238,7 @@ const MENU_ITEMS = [
         description: "Whole green moong beans cooked in a nutritious, mild but fragrant home-style Gujarati thin gravy."
     },
     {
-        id: "shk-10",
+        id: "shk-12",
         name: "Rasawala Chavali",
         category: "shaak",
         price: 125,
@@ -271,6 +291,16 @@ const MENU_ITEMS = [
     },
     {
         id: "rot-5",
+        name: "Phulka Rotli (3 Pcs)",
+        category: "rotla",
+        price: 50,
+        rating: 4.9,
+        reviews: 387,
+        image: "https://5.imimg.com/data5/PX/EF/MY-34988579/phulka-chapati.jpg",
+        description: "Soft, thin, and airy Indian flatbread made from whole-wheat dough."
+    },
+    {
+        id: "rot-6",
         name: "Satpadi Parotha (2 Pcs)",
         category: "rotla",
         price: 70,
@@ -365,6 +395,106 @@ const MENU_ITEMS = [
     },
     {
         id: "swt-5",
+        name: "Adadiya Pak",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://satadharsweet.com/wp-content/uploads/2023/11/Adadiya-Pak-4-1.webp",
+        description: "A traditional, nutrient-dense Gujarati winter sweet. Made from coarsely ground black gram (urad dal), pure ghee, and jaggery, it is heavily enriched with dry fruits and warming spices."
+    },
+    {
+        id: "swt-6",
+        name: "Mohanthal",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://www.sanjanafeasts.co.uk/wp-content/uploads/2020/07/IMG_7881.jpg.webp",
+        description: "A decadent, grainy fudge made from roasted gram flour (besan), clarified butter (ghee), and sugar syrup, delicately flavored with cardamom, nutmeg, and garnished with chopped almonds and pistachios."
+    },
+    {
+        id: "swt-7",
+        name: "Mesub",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqEreWA7QkygWJLchBVT88mMWNYfuC6AMz3Q&s",
+        description: "A decadent, grainy fudge made from roasted gram flour (besan), clarified butter (ghee), and sugar syrup, delicately flavored with cardamom, nutmeg, and garnished with chopped almonds and pistachios."
+    },
+    {
+        id: "swt-8",
+        name: "Dudhi Halwa",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://www.jcookingodyssey.com/wp-content/uploads/2020/07/dudhihalwa.jpg",
+        description: "A rich, slow-cooked dessert made from grated bottle gourd (dudhi), milk, and sugar, flavored with cardamom and nuts."
+    },
+    {
+        id: "swt-9",
+        name: "Gajar Halwa",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://www.whiskaffair.com/wp-content/uploads/2019/05/Gajar-Ka-Halwa-2-3.jpg",
+        description: "Grated sweet carrots simmered in full-fat milk, sugar, and generous amounts of ghee (clarified butter). The pudding is then infused with fragrant cardamom and garnished with crunchy toasted nuts like pistachios and almonds."
+    },
+    {
+        id: "swt-10",
+        name: "Boondi Ladoo",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://www.sugarfree-india.com/wp-content/uploads/2026/04/boondi-laddu-recipe.webp",
+        description: "A popular traditional sweet made from tiny fried gram flour (besan) droplets soaked in sugar syrup and shaped into round balls."
+    },
+    {
+        id: "swt-11",
+        name: "FadaLapsi",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://southindianfoods.in/recipe_picture_enlarge/fada-lapsi-gujarati-special.jpg",
+        description: "Rich Gujarati dessert made from roasted cracked wheat (fada/dalia), slow-cooked in clarified butter (ghee) and sweetened with jaggery or sugar."
+    },
+    {
+        id: "swt-12",
+        name: "Gulab Jamun",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://www.cadburydessertscorner.com/hubfs/dc-website-2022/articles/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know/soft-gulab-jamun-recipe-for-raksha-bandhan-from-dough-to-syrup-all-you-need-to-know.webp",
+        description: "A classic Indian dessert featuring soft, melt-in-your-mouth fried milk-solid dumplings soaked in a warm, aromatic sugar syrup flavored with rose water and cardamom."
+    },
+    {
+        id: "swt-13",
+        name: "Kala Jamun",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJMhT_rZvlcJBrdV0ehIeeN8KI1mvaZQw62g&s",
+        description: "A rich, melt-in-the-mouth Indian dessert consisting of deep-fried dough balls made from milk solids (khoya) and cottage cheese (paneer)."
+    },
+    {
+        id: "swt-14",
+        name: "Jalebi",
+        category: "sweets",
+        price: 120,
+        rating: 4.8,
+        reviews: 143,
+        image: "https://i0.wp.com/binjalsvegkitchen.com/wp-content/uploads/2023/10/Instant-Jalebi-H1.jpg?fit=600%2C904&ssl=1",
+        description: "a beloved, spiral-shaped Indian dessert made by deep-frying a fermented batter of all-purpose flour (maida) and gram flour (besan). ."
+    },
+    {
+        id: "swt-15",
         name: "Kesar Pista Shrikhand",
         category: "sweets",
         price: 90,
@@ -374,7 +504,7 @@ const MENU_ITEMS = [
         description: "Thick, silky hung yogurt dessert flavored with pure Kashmiri saffron, crushed green cardamom, and raw pistachios."
     },
     {
-        id: "swt-6",
+        id: "swt-16",
         name: "Traditional Doodh Pak",
         category: "sweets",
         price: 95,
@@ -450,7 +580,7 @@ const DOM = {
     categoryFilters: document.getElementById('category-filters'),
     searchInput: document.getElementById('menu-search'),
     sortSelect: document.getElementById('menu-sort'),
-    
+
     // Cart Controls
     cartBtn: document.getElementById('cart-btn'),
     closeCartBtn: document.getElementById('close-cart-btn'),
@@ -466,17 +596,17 @@ const DOM = {
     cartTotal: document.getElementById('cart-total'),
     checkoutBtn: document.getElementById('checkout-btn'),
     shopNowBtn: document.getElementById('shop-now-btn'),
-    
+
     // Mobile Nav
     mobileToggle: document.getElementById('mobile-toggle'),
     navMenu: document.getElementById('nav-menu'),
     navLinks: document.querySelectorAll('.nav-link'),
     footerCategoryLinks: document.querySelectorAll('.cat-footer-link'),
-    
+
     // Forms
     contactForm: document.getElementById('contact-form'),
     newsletterForm: document.getElementById('newsletter-form'),
-    
+
     // Modal
     successModal: document.getElementById('success-modal'),
     closeModalBtn: document.getElementById('close-modal-btn'),
@@ -490,7 +620,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         renderMenu();
     }, 800);
-    
+
     // 2. Attach Event Handlers
     setupEventListeners();
 });
@@ -499,12 +629,12 @@ document.addEventListener('DOMContentLoaded', () => {
 function setupEventListeners() {
     // Sticky Scroll
     window.addEventListener('scroll', handleNavbarScroll);
-    
+
     // Category Tabs Filter
     if (DOM.categoryFilters) {
         DOM.categoryFilters.addEventListener('click', handleCategoryFilter);
     }
-    
+
     // Live Search input
     if (DOM.searchInput) {
         DOM.searchInput.addEventListener('input', (e) => {
@@ -512,7 +642,7 @@ function setupEventListeners() {
             renderMenu();
         });
     }
-    
+
     // Price Sorter drop down
     if (DOM.sortSelect) {
         DOM.sortSelect.addEventListener('change', (e) => {
@@ -520,13 +650,13 @@ function setupEventListeners() {
             renderMenu();
         });
     }
-    
+
     // Drawer triggers
     if (DOM.cartBtn) DOM.cartBtn.addEventListener('click', toggleCart);
     if (DOM.closeCartBtn) DOM.closeCartBtn.addEventListener('click', toggleCart);
     if (DOM.cartOverlay) DOM.cartOverlay.addEventListener('click', toggleCart);
     if (DOM.shopNowBtn) DOM.shopNowBtn.addEventListener('click', toggleCart);
-    
+
     // Mobile Navigation burger toggles
     if (DOM.mobileToggle) {
         DOM.mobileToggle.addEventListener('click', () => {
@@ -539,13 +669,13 @@ function setupEventListeners() {
             }
         });
     }
-    
+
     // Nav links and close mobile navigation on click
     DOM.navLinks.forEach(link => {
         link.addEventListener('click', () => {
             DOM.navLinks.forEach(l => l.classList.remove('active'));
             link.classList.add('active');
-            
+
             if (DOM.navMenu.classList.contains('active')) {
                 DOM.navMenu.classList.remove('active');
                 DOM.mobileToggle.querySelector('i').className = 'fa-solid fa-bars';
@@ -568,24 +698,24 @@ function setupEventListeners() {
             renderMenu();
         });
     });
-    
+
     // Cart adjust quantities & delete buttons
     if (DOM.cartItemsContainer) {
         DOM.cartItemsContainer.addEventListener('click', handleCartItemAction);
     }
-    
+
     // Place order
     if (DOM.checkoutBtn) {
         DOM.checkoutBtn.addEventListener('click', handleCheckout);
     }
-    
+
     // Modal dismiss
     if (DOM.closeModalBtn) {
         DOM.closeModalBtn.addEventListener('click', () => {
             DOM.successModal.classList.remove('active');
         });
     }
-    
+
     // Form handlers
     if (DOM.contactForm) {
         DOM.contactForm.addEventListener('submit', (e) => {
@@ -594,7 +724,7 @@ function setupEventListeners() {
             DOM.contactForm.reset();
         });
     }
-    
+
     if (DOM.newsletterForm) {
         DOM.newsletterForm.addEventListener('submit', (e) => {
             e.preventDefault();
@@ -618,21 +748,21 @@ function renderMenu() {
     // 1. Filtering matching active Category Pill and search strings
     let items = MENU_ITEMS.filter(item => {
         const matchesCategory = (activeCategory === "all" || item.category === activeCategory);
-        const matchesSearch = item.name.toLowerCase().includes(searchTerm) || 
-                              item.description.toLowerCase().includes(searchTerm);
+        const matchesSearch = item.name.toLowerCase().includes(searchTerm) ||
+            item.description.toLowerCase().includes(searchTerm);
         return matchesCategory && matchesSearch;
     });
-    
+
     // 2. Sorting matched dataset
     if (sortBy === "price-low") {
         items.sort((a, b) => a.price - b.price);
     } else if (sortBy === "price-high") {
         items.sort((a, b) => b.price - a.price);
     }
-    
+
     // 3. Purge container
     DOM.menuGrid.innerHTML = "";
-    
+
     // 4. Handle empty records
     if (items.length === 0) {
         DOM.menuGrid.innerHTML = `
@@ -644,14 +774,14 @@ function renderMenu() {
         `;
         return;
     }
-    
+
     // 5. Append cards
     items.forEach(item => {
         const stars = generateRatingStars(item.rating);
         const card = document.createElement('div');
         card.className = 'menu-card';
         card.setAttribute('data-id', item.id);
-        
+
         card.innerHTML = `
             <div class="card-img-wrapper">
                 <img src="${item.image}" alt="${item.name}" class="card-img" loading="lazy">
@@ -674,7 +804,7 @@ function renderMenu() {
                 </div>
             </div>
         `;
-        
+
         DOM.menuGrid.appendChild(card);
     });
 }
@@ -698,7 +828,7 @@ function generateRatingStars(rating) {
     let starsHtml = "";
     const fullStars = Math.floor(rating);
     const halfStar = rating % 1 >= 0.5;
-    
+
     for (let i = 0; i < 5; i++) {
         if (i < fullStars) {
             starsHtml += '<i class="fa-solid fa-star"></i>';
@@ -715,11 +845,11 @@ function generateRatingStars(rating) {
 function handleCategoryFilter(e) {
     const pill = e.target.closest('.filter-pill');
     if (!pill) return;
-    
+
     const pills = DOM.categoryFilters.querySelectorAll('.filter-pill');
     pills.forEach(p => p.classList.remove('active'));
     pill.classList.add('active');
-    
+
     activeCategory = pill.getAttribute('data-category');
     renderMenu();
 }
@@ -728,7 +858,7 @@ function handleCategoryFilter(e) {
 function toggleCart() {
     DOM.cartSidebar.classList.toggle('active');
     DOM.cartOverlay.classList.toggle('active');
-    
+
     if (DOM.cartSidebar.classList.contains('active')) {
         document.body.style.overflow = 'hidden';
     } else {
@@ -740,9 +870,9 @@ function toggleCart() {
 function addToCart(id) {
     const product = MENU_ITEMS.find(item => item.id === id);
     if (!product) return;
-    
+
     const cartItem = cart.find(item => item.product.id === id);
-    
+
     if (cartItem) {
         cartItem.quantity++;
     } else {
@@ -751,7 +881,7 @@ function addToCart(id) {
             quantity: 1
         });
     }
-    
+
     showEthnicToast(`Added ${product.name} to Rasoi order!`, "food");
     updateCartUI();
 }
@@ -759,9 +889,9 @@ function addToCart(id) {
 function handleCartItemAction(e) {
     const itemRow = e.target.closest('.cart-item');
     if (!itemRow) return;
-    
+
     const productId = itemRow.getAttribute('data-id');
-    
+
     if (e.target.closest('.qty-btn-plus')) {
         adjustItemQuantity(productId, 1);
     }
@@ -776,9 +906,9 @@ function handleCartItemAction(e) {
 function adjustItemQuantity(id, delta) {
     const item = cart.find(item => item.product.id === id);
     if (!item) return;
-    
+
     item.quantity += delta;
-    
+
     if (item.quantity <= 0) {
         removeFromCart(id);
     } else {
@@ -789,10 +919,10 @@ function adjustItemQuantity(id, delta) {
 function removeFromCart(id) {
     const item = cart.find(item => item.product.id === id);
     const itemName = item ? item.product.name : "Item";
-    
+
     cart = cart.filter(item => item.product.id !== id);
     showEthnicToast(`Removed ${itemName} from order`, "info");
-    
+
     updateCartUI();
 }
 
@@ -800,31 +930,31 @@ function removeFromCart(id) {
 function updateCartUI() {
     const totalCount = cart.reduce((accum, item) => accum + item.quantity, 0);
     DOM.cartCountBadge.textContent = totalCount;
-    
+
     DOM.cartBtn.classList.add('pulse');
     setTimeout(() => DOM.cartBtn.classList.remove('pulse'), 400);
-    
+
     const emptyMsg = DOM.emptyCartMessage;
     DOM.cartItemsContainer.innerHTML = "";
     DOM.cartItemsContainer.appendChild(emptyMsg);
-    
+
     if (cart.length === 0) {
         DOM.emptyCartMessage.style.display = "flex";
         DOM.cartFooter.style.display = "none";
         document.getElementById('cart-items-count').textContent = "(0 items)";
         return;
     }
-    
+
     DOM.emptyCartMessage.style.display = "none";
     DOM.cartFooter.style.display = "flex";
     document.getElementById('cart-items-count').textContent = `(${totalCount} item${totalCount !== 1 ? 's' : ''})`;
-    
+
     // Render item rows
     cart.forEach(item => {
         const itemRow = document.createElement('div');
         itemRow.className = 'cart-item';
         itemRow.setAttribute('data-id', item.product.id);
-        
+
         itemRow.innerHTML = `
             <img src="${item.product.image}" alt="${item.product.name}" class="cart-item-img">
             <div class="cart-item-info">
@@ -838,17 +968,17 @@ function updateCartUI() {
             </div>
             <button class="remove-item-btn" aria-label="Remove item"><i class="fa-solid fa-trash-can"></i></button>
         `;
-        
+
         DOM.cartItemsContainer.appendChild(itemRow);
     });
-    
+
     // Calculate sums
     const subtotal = cart.reduce((accum, item) => accum + (item.product.price * item.quantity), 0);
     const taxRate = 0.05; // 5% GST on Restaurant orders
     const tax = subtotal * taxRate;
     const delivery = 40.00; // Flat packaging & delivery charge (INR)
     const total = subtotal + tax + delivery;
-    
+
     DOM.cartSubtotal.textContent = `₹${subtotal.toFixed(2)}`;
     DOM.cartTax.textContent = `₹${tax.toFixed(2)}`;
     DOM.cartDelivery.textContent = `₹${delivery.toFixed(2)}`;
@@ -858,15 +988,15 @@ function updateCartUI() {
 // --- Order Checkout Engine ---
 function handleCheckout() {
     if (cart.length === 0) return;
-    
+
     const tokenIdStr = `#KATH-${Math.floor(10000 + Math.random() * 90000)}`;
     const prepTimeMinutes = `${Math.floor(20 + Math.random() * 10)} - ${Math.floor(35 + Math.random() * 10)} minutes`;
-    
+
     DOM.modalOrderId.textContent = tokenIdStr;
     DOM.modalDeliveryTime.textContent = prepTimeMinutes;
-    
+
     toggleCart();
-    
+
     setTimeout(() => {
         DOM.successModal.classList.add('active');
         cart = [];
@@ -878,24 +1008,24 @@ function handleCheckout() {
 function showEthnicToast(message, type = "success") {
     const existing = document.querySelector('.aura-toast');
     if (existing) existing.remove();
-    
+
     const toast = document.createElement('div');
     toast.className = `aura-toast toast-${type}`;
-    
+
     let iconClass = "fa-circle-check";
     if (type === "food") iconClass = "fa-fire-burner";
     if (type === "info") iconClass = "fa-circle-info";
     if (type === "error") iconClass = "fa-circle-exclamation";
-    
+
     toast.innerHTML = `
         <div class="toast-body">
             <i class="fa-solid ${iconClass} toast-icon"></i>
             <span>${message}</span>
         </div>
     `;
-    
+
     document.body.appendChild(toast);
-    
+
     // Dynamically insert CSS rules if missing
     if (!document.getElementById('toast-styles')) {
         const style = document.createElement('style');
@@ -958,11 +1088,11 @@ function showEthnicToast(message, type = "success") {
         `;
         document.head.appendChild(style);
     }
-    
+
     setTimeout(() => {
         toast.classList.add('show');
     }, 50);
-    
+
     setTimeout(() => {
         toast.classList.remove('show');
         setTimeout(() => toast.remove(), 400);
