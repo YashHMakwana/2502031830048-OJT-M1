@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rangilu Kathiyawad - Experience authentic, spicy, and rich Kathiyawadi thalis, clay-baked bajra rotlas, and sweet ghee-laden churma ladoos delivered hot.">
+    <title>Rangilu Kathiyawad | Authentic Indian Dining & Delivery</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cinzel:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS linked as Syle.css -->
+    <link rel="stylesheet" href="Syle.css">
+</head>
+<body>
+
+    <!-- Ethnic Border Top -->
+    <div class="ethnic-border"></div>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" id="logo">
+                <i class="fa-solid fa-fire-burner logo-icon"></i>
+                <span>RANGILU <span class="accent-text">KATHIYAWAD</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">Our Heritage</a>
+                <a href="#menu" class="nav-link">Delicacies</a>
+                <a href="#features" class="nav-link">Why Kathiyawad</a>
+                <a href="#contact" class="nav-link">Book Catering</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button class="cart-toggle-btn" id="cart-btn" aria-label="Open Shopping Cart">
+                    <i class="fa-solid fa-utensils"></i>
+                    <span class="cart-badge" id="cart-count">0</span>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-subtitle">AUTHENTIC SPICY HERITAGE</span>
+                <h1 class="hero-title">Taste the Fire & Love of <br><span class="accent-text italic-text">Kathiyawadi Thali</span></h1>
+                <p class="hero-desc">Indulge in charcoal-roasted Ringan Oro, spicy Sev Tameta, and hand-patted Bajra Rotla laden with white butter and pure dark jaggery. Prepared from scratch using century-old family recipes.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                    <a href="#about" class="btn btn-secondary">Our Heritage</a>
+                </div>
+            </div>
+            
+            <!-- Floating Quick Stats -->
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">100%<i class="fa-solid fa-leaf leaf-icon"></i></span>
+                    <span class="stat-label">Pure Vegetarian</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">Tavdi</span>
+                    <span class="stat-label">Clay Griddle Baked</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">Desi Ghee</span>
+                    <span class="stat-label">Rich & Aromatic</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Info Section -->
+        <section id="features" class="features-section">
+            <div class="section-header text-center">
+                <span class="section-tagline">OUR CUISINE PHIOLOSOPHY</span>
+                <h2 class="section-title">What Makes Our Food Legendary</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <i class="fa-solid fa-pepper-hot"></i>
+                    </div>
+                    <h3>Rustic Spices</h3>
+                    <p>We use hand-pounded, authentic red chilies from Gondal and locally sourced roasted spices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <i class="fa-solid fa-blender"></i>
+                    </div>
+                    <h3>Clay Pot Baking</h3>
+                    <p>Our flatbreads are roasted slowly on traditional clay griddles (tavdi) for that earthy wood-fired aroma.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <i class="fa-solid fa-glass-water"></i>
+                    </div>
+                    <h3>100% Pure Desi Ghee</h3>
+                    <p>No shortcuts. Every thali, khichdi, and sweet is enriched with golden, grass-fed cow ghee.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <i class="fa-solid fa-house-chimney-user"></i>
+                    </div>
+                    <h3>Heritage Kitchen</h3>
+                    <p>Every dish is cooked by native Kathiyawadi chefs who understand the heat and sweet balances of Gujarat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heritage / About Section -->
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-img-group">
+                    <div class="about-img-wrapper large-img">
+                        <img src="https://as1.ftcdn.net/v2/jpg/12/13/10/92/1000_F_1213109270_m5jD4GpwZoHd2vtfM9gSpbm6ITnHzvFh.jpg" alt="Making Ringan Oro on coal fire" class="about-img" loading="lazy">
+                    </div>
+                    <div class="about-img-wrapper small-img">
+                        <img src="https://as2.ftcdn.net/v2/jpg/08/64/10/57/1000_F_864105761_lluTE6RowITC74uSVjSN28IIauNN9yOk.jpg" alt="Plated Indian Farsan Dhokla" class="about-img" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-text-content">
+                    <span class="section-tagline">OUR HERITAGE</span>
+                    <h2 class="section-title">Earthy, Robust & Unapologetically Spicy</h2>
+                    <p class="about-p">Kathiyawad—the land of royals, saints, and brave hearts in western Gujarat—has a cuisine that mirrors its climate. Resilient crops like pearl millet (Bajra), high-intensity red garlic, and heavy dairy fats are crafted into deeply satisfying and fiery meals meant to sustain dryland farming.</p>
+                    <p class="about-p">At Rangilu Kathiyawad, we pay homage to this rustic history. We do not dilute the garlic, we do not compromise on the ghee, and we pat the rotlas by hand exactly the way it has been done in village courtyards for centuries.</p>
+                    
+                    <ul class="about-list">
+                        <li><i class="fa-solid fa-pepper-hot check-icon"></i> Gondal Reshampatti garlic tempering</li>
+                        <li><i class="fa-solid fa-leaf check-icon"></i> Sourced from organic co-op farms in Saurashtra</li>
+                        <li><i class="fa-solid fa-bowl-food check-icon"></i> Traditional multi-course dining Thali available</li>
+                    </ul>
+                    
+                    <a href="#menu" class="btn btn-primary mt-4">Browse Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="section-header text-center">
+                <span class="section-tagline">EXPLORE SAURASHTRA'S FLAVORS</span>
+                <h2 class="section-title">The Complete Kathiyawadi Menu</h2>
+                <p class="section-subtitle">Choose from our massive collection of breakfast, rich curries, flatbreads, and sweets. Mix and match to build your royal thali!</p>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="menu-filters-container">
+                <div class="menu-filters" id="category-filters">
+                    <button class="filter-pill active" data-category="all">All Delicacies</button>
+                    <button class="filter-pill" data-category="breakfast">Sakal No Nasto (Breakfast)</button>
+                    <button class="filter-pill" data-category="starters">Starters & Farsan</button>
+                    <button class="filter-pill" data-category="shaak">Kathiyawadi Shaak (Curries)</button>
+                    <button class="filter-pill" data-category="rotla">Rotla & Bhakri</button>
+                    <button class="filter-pill" data-category="rice">Rice & Khichdi</button>
+                    <button class="filter-pill" data-category="sweets">Mithai (Sweets)</button>
+                    <button class="filter-pill" data-category="sides">Sides & Chutneys</button>
+                </div>
+            </div>
+
+            <!-- Search and Sort controls -->
+            <div class="menu-controls">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="menu-search" placeholder="Search Gathiya, Ringan Oro, Bajra Rotlo, Sukhdi...">
+                </div>
+                <div class="sort-box">
+                    <label for="menu-sort"><i class="fa-solid fa-arrow-down-wide-short"></i> Sort by:</label>
+                    <select id="menu-sort">
+                        <option value="default">Popularity</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menu-grid">
+                <!-- Javascript will dynamically inject cards here -->
+                <div class="menu-card skeleton">
+                    <div class="skeleton-img"></div>
+                    <div class="skeleton-title"></div>
+                    <div class="skeleton-desc"></div>
+                    <div class="skeleton-footer"></div>
+                </div>
+                <div class="menu-card skeleton">
+                    <div class="skeleton-img"></div>
+                    <div class="skeleton-title"></div>
+                    <div class="skeleton-desc"></div>
+                    <div class="skeleton-footer"></div>
+                </div>
+                <div class="menu-card skeleton">
+                    <div class="skeleton-img"></div>
+                    <div class="skeleton-title"></div>
+                    <div class="skeleton-desc"></div>
+                    <div class="skeleton-footer"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Banner Section -->
+        <section class="testimonial-section">
+            <div class="testimonial-container">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="testimonial-text">"Eating the Ringan No Oro and Bajra Rotlo at Rangilu Kathiyawad felt exactly like sitting in a rural farm courtyard in Junagadh. The pure ghee and raw garlic chutney are out of this world!"</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" alt="Harish Patel" class="author-img">
+                    <div>
+                        <h4>Harshvardhan Patel</h4>
+                        <p>Junagadh Native & Food Critic</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <span class="section-tagline">RANGILU HOSPITALITY</span>
+                    <h2 class="section-title">Visit Us or Book Royal Catering</h2>
+                    <p class="contact-desc">Planning a traditional wedding, family gathering, or festival thali feast? We provide royal catering services with live clay woodfire stoves at your venue.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Kathiyawadi Haveli</h4>
+                                <p>Saurashtra Bypass Highway, Opp. Gir Forest Road, Rajkot, Gujarat 360001</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <div>
+                                <h4>Dining Hours</h4>
+                                <p>Breakfast: 7:00 AM - 11:30 AM <br> Lunch & Dinner: 12:00 PM - 11:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h4>Direct Orders & Bookings</h4>
+                                <p>+91 98765 43210 <br> rasoi@rangilukathiyawad.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <h3>Book Catering or Table</h3>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option value="table">Table Reservation</option>
+                                <option value="catering">Traditional Catering Inquiry</option>
+                                <option value="delivery">Massive Party Delivery</option>
+                                <option value="feedback">General Feedback</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Mention guest count, date, and items requested..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Slide-in Shopping Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Rasoi Order <span class="items-count-text" id="cart-items-count">(0 items)</span></h3>
+            <button class="close-cart-btn" id="close-cart-btn" aria-label="Close Cart">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        
+        <!-- Cart Items list -->
+        <div class="cart-items" id="cart-items-container">
+            <!-- Dynamic elements will be appended here -->
+            <div class="empty-cart-message" id="empty-cart">
+                <i class="fa-solid fa-leaf empty-icon"></i>
+                <p>Your Kathiyawadi cart is empty</p>
+                <a href="#menu" class="btn btn-secondary btn-sm" id="shop-now-btn">Explore Menu</a>
+            </div>
+        </div>
+        
+        <!-- Order Summary & Checkout Footer -->
+        <div class="cart-footer" id="cart-footer" style="display: none;">
+            <div class="summary-line">
+                <span>Subtotal</span>
+                <span id="cart-subtotal">₹0.00</span>
+            </div>
+            <div class="summary-line">
+                <span>Packing & Delivery</span>
+                <span id="cart-delivery">₹40.00</span>
+            </div>
+            <div class="summary-line tax-line">
+                <span>GST (5% Restaurant Tax)</span>
+                <span id="cart-tax">₹0.00</span>
+            </div>
+            <div class="summary-line total-line">
+                <span>Grand Total</span>
+                <span id="cart-total">₹0.00</span>
+            </div>
+            
+            <button class="checkout-btn" id="checkout-btn">
+                <span>Place Order in Kitchen</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Order Success Modal Popups -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal-content">
+            <div class="success-icon-wrapper">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h2>Order Placed with Kitchen!</h2>
+            <p>Our rasoi chefs have started rolling your hot rotlas and packing your fiery curries with fresh ghee.</p>
+            <div class="order-summary-box">
+                <p><strong>Kitchen Token ID:</strong> <span id="modal-order-id">#KATH-74839</span></p>
+                <p><strong>Estimated Prep & Delivery:</strong> <span id="modal-delivery-time">25 - 35 minutes</span></p>
+            </div>
+            <button class="btn btn-primary" id="close-modal-btn">Aao Padharo (Enjoy!)</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-fire-burner logo-icon"></i>
+                    <span>RANGILU <span class="accent-text">KATHIYAWAD</span></span>
+                </a>
+                <p>Preserving the robust culinary culture of Saurashtra. High spice profiles, clay stove cooking, pure cow dairy, and traditional Indian hospitality.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Thali Courses</h3>
+                <ul>
+                    <li><a href="#menu">Sakal No Nasto</a></li>
+                    <li><a href="#menu">Spicy Curries</a></li>
+                    <li><a href="#menu">Rotla & Bhakri</a></li>
+                    <li><a href="#menu">Desi Mithai</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Popular Orders</h3>
+                <ul>
+                    <li><a href="#menu" class="cat-footer-link" data-cat="shaak">Ringan No Oro</a></li>
+                    <li><a href="#menu" class="cat-footer-link" data-cat="shaak">Sev Tameta Nu Shaak</a></li>
+                    <li><a href="#menu" class="cat-footer-link" data-cat="rotla">Bajra No Rotlo</a></li>
+                    <li><a href="#menu" class="cat-footer-link" data-cat="sweets">Churma Ladoo</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h3>Kathiyawadi Rasoi Club</h3>
+                <p>Subscribe to get updates on traditional seasonal specials like Ringan Oro fest and winter special Adadiya Pak!</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Rangilu Kathiyawad Haveli. All rights reserved. Sourced ethically from Saurashtra Farmers.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Dining</a>
+                <a href="#">Refund Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS linked as Script.js -->
+    <script src="Script.js"></script>
+</body>
+</html>
