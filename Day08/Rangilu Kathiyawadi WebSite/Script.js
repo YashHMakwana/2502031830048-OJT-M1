@@ -1,6 +1,4 @@
-/* ==========================================
-   Rangilu Kathiyawad - Dynamic Shop Engine
-   ========================================== */
+/* Rangilu Kathiyawad - Dynamic Shop Engine */
 
 // --- Exhaustive Kathiyawadi Menu Database ---
 const MENU_ITEMS = [
