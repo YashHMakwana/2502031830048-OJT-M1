@@ -244,7 +244,7 @@ const MENU_ITEMS = [
         price: 125,
         rating: 4.6,
         reviews: 94,
-        image: "https://imgs.search.brave.com/BZuN-pnCT8Mr_bnvwuGK0M0dvTQVHtfAUpDpcUUSaxA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92c3Bp/Y2Vyb3V0ZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDkvNjQ2MTBDMDEt/OTAyNy00QzRGLThC/MTktREVFQ0Y4OUUy/OTA4LTUwMHg1MDAu/anBlZw",
+        image: "https://shwetainthekitchen.com/wp-content/uploads/2021/02/Lobia-Masala.jpg",
         description: "Soft black-eyed peas prepared in a rich, slow-simmered spicy thin gravy with hints of dried ginger."
     },
 
