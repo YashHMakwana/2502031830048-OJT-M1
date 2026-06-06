@@ -146,7 +146,8 @@ app.post('/api/auth/register', async (req, res) => {
           user: {
             id: user.id,
             username: user.username,
-            email: user.email
+            email: user.email,
+            role: user.role
           }
         });
       }
@@ -193,7 +194,8 @@ app.post('/api/auth/login', async (req, res) => {
           user: {
             id: user.id,
             username: user.username,
-            email: user.email
+            email: user.email,
+            role: user.role
           }
         });
       }
